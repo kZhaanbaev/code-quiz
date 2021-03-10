@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+}
+
+main {
+    width: 60vw;
+    height: 300px;
+    margin: auto;
+    padding: 40px;;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+}
+
+p {
+    font-size: x-large;
+}
+
+button {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.banner {
+    margin: 0px auto 20px;
+    position: relative;
+}
+
+.left-span {
+    position: absolute;
+    left: 20px;
+}
+
+.right-span {
+    position: absolute;
+    right: 20px;
+}
