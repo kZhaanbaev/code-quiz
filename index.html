@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,26 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Code Quiz</title>
 </head>
+
 <body>
     <div class="banner">
-        <span class="left-span">View Highscores</span>
+        <span class="left-span" hre><a href="#">View Highscores</a></span>
         <span class="right-span">Time: 75</span>
     </div>
     <main>
         <h1>Coding Quiz Challenge</h1>
         <div class="description">
-            <p>Try to answer the following code-related questions within the time limit. Keep in mind the incorrect answers will penalize your score/time by ten seconds</p>
+            <p>Try to answer the following code-related questions within the time limit. Keep in mind the incorrect
+                answers will penalize your score/time by ten seconds</p>
         </div>
-        <button>Start Quiz</button>
+        <button id="start">Start Quiz</button>
     </main>
+    <section class="answer-result">
+        <hr>
+        <p id="result">Wrong!</p>
+    </section>
+
 </body>
 <script src="./assets/js/script.js"></script>
+
 </html>

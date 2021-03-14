@@ -2,11 +2,17 @@ body {
     font-family: sans-serif;
 }
 
-main {
+main, section {
     width: 60vw;
-    height: 300px;
     margin: auto;
-    padding: 40px;;
+    padding: 40px;
+}
+
+section {
+    height: auto;
+    padding: 0px;
+    text-align: center;
+    display: none;
 }
 
 h1 {
@@ -20,7 +26,7 @@ p {
 
 button {
     display: block;
-    margin: auto;
+    margin: 30px auto auto;
     padding: 10px;
     background-color: purple;
     color: white;
@@ -41,4 +47,26 @@ button {
 .right-span {
     position: absolute;
     right: 20px;
+}
+
+.centerItems {
+    width: 60vw;
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+}
+
+.centerItems input {
+    margin: 5px;
+}
+
+.button-display {
+    display: inline-block;
+    margin: 8px;
+}
+
+.ol-style {
+    display: table;
+    margin: 20px auto;
+    font-size: large;
 }
