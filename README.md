@@ -1,5 +1,10 @@
 # Code Quiz app
 
+<br><br>
+[Open website link](https://kzhaanbaev.github.io/code-quiz/)
+
+<br>
+
 This application can be used to test user's based on their answers
 <br>
 We can set all questions with several answers including correct one in an array.
