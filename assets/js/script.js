@@ -45,6 +45,10 @@ viewHighscoresEl.addEventListener('click', function(){
     if(document.querySelector('.centerItems') !== null)
     document.querySelector('.centerItems').remove();
 
+    if(document.querySelector('.answers-list') !== null){
+        document.querySelector('.answers-list').remove();
+    }
+
     createHighScoreBox();
 })
 
